@@ -1,0 +1,1083 @@
+
+
+Comecou as: 2017-04-22 16:27:23.621191
+
+Terminou as: 2017-04-22 16:27:23.622938 totalizando: 0:00:00.001747
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+Predicted: 2 | Class: 2 | STATUS: RIGHT
+
+Predicted: 1 | Class: 1 | STATUS: RIGHT
+
+Predicted: 3 | Class: 3 | STATUS: RIGHT
+
+[[ 0.  0.  1.]
+ [ 0.  0.  1.]
+ [ 1.  0.  0.]
+ ..., 
+ [ 0.  1.  0.]
+ [ 1.  0.  0.]
+ [ 0.  0.  1.]]

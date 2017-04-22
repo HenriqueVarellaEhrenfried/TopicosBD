@@ -3,6 +3,7 @@ import datetime
 import pydotplus
 import random
 import numpy as np
+import matplotlib.pyplot as plt
 from sklearn import tree
 
 def splitArray(array, percentage):
@@ -79,6 +80,15 @@ dot_data = tree.export_graphviz(clf, out_file=None)
 graph = pydotplus.graph_from_dot_data(dot_data) 
 graph.write_pdf("turisticoPDF.pdf") 
 
+a = treino_features + teste_features
+b = treino_label + teste_label
+predictions = clf.predict(a)
 
-a = clf.predict(teste_features)
-print a
+for x in range(0, len(predictions)):
+    print "Predicted: " + str(predictions[x]) + " | Class: " + str(b[x]) + " | STATUS: " + "RIGHT\n" if predictions[x]==b[x] else "WRONG\n"
+
+
+
+proba = clf.predict_proba(a)
+print proba
+
