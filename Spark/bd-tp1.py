@@ -3,6 +3,7 @@ import ssl
 import csv
 import datetime as dt
 # import matplotlib.pyplot as pp
+import leather
 from pyspark.sql.types import StringType, StructField, StructType, BooleanType, ArrayType, IntegerType
 from pyspark.sql import Row, Column
 from pyspark.sql import SQLContext
@@ -28,8 +29,9 @@ from datetime import datetime
 import sys
 from pyspark import SparkConf,SparkContext
 from pyspark.sql import SQLContext
+from decimal import *
 
-
+getcontext().prec = 4
 def returnDic(array):
     i = 0
     dic = {}
@@ -38,6 +40,30 @@ def returnDic(array):
             dic[a[0]] = i
             i += 1
     return dic
+
+def plotDF(data, name, type="df"):
+    plotData = []
+    if (type != "df"):
+        for d in data:
+            plotData.append((d["id"], float(Decimal(d["MISSED"])/Decimal(d["TOTAL"]))*100))
+        chart = leather.Chart(name)
+        chart.add_columns(plotData, fill_color='#265b6a')
+        chart.to_svg(name.replace(" ","_") + ".svg",900)
+    else:
+        df = data.collect()
+        if (name != "Obras por UF e estagio"):
+            for d in df:
+                plotData.append((d[0], d[1]))
+            chart = leather.Chart(name)
+            chart.add_columns(plotData, fill_color='#265b6a')
+            chart.to_svg(name.replace(" ","_") + ".svg",900)
+        else:
+            for d in df:
+                plotData.append((d[2], d[0] + " - " + d[1]))
+            chart = leather.Chart(name)
+            chart.add_bars(plotData, fill_color='#265b6a')
+            chart.to_svg(name.replace(" ","_") + ".svg",900,1600)
+
 #----------------------
 SparkContext.setSystemProperty('spark.executor.memory', '2g')
 SparkContext.setSystemProperty('spark.driver.maxResultSize', '5g')
@@ -157,15 +183,20 @@ print model.toDebugString
 total = predictions.count()
 missed = predictions.where("stages != prediction").count()
 
-resultados.append({"id": "RESPONSABLE", "TOTAL": total, "MISSED": missed})
+resultados.append({"id": "STAGE", "TOTAL": total, "MISSED": missed})
 afterML = datetime.now()
 print "Tempo depois do ML: " + str(afterML) + "TOTAL: " + str(afterML-beforeML) + "\n"
 # Fim Machnie Learning
 print resultados
 
-completeData.select("estagio").groupBy("estagio").count().show()
-completeData.select("unidade_federativa").groupBy("unidade_federativa").count().show()
-completeData.select("unidade_federativa","estagio").groupBy("unidade_federativa","estagio").count().orderBy("unidade_federativa").show()
+resa = completeData.select("estagio").groupBy("estagio").count()
+resb = completeData.select("unidade_federativa").groupBy("unidade_federativa").count()
+resc = completeData.select("unidade_federativa","estagio").groupBy("unidade_federativa","estagio").count().orderBy("unidade_federativa")
 
+
+plotDF(resultados,"Porcentagem de Erro","array")
+plotDF(resa,"Obras por estagio")
+plotDF(resb,"Obras por UF")
+plotDF(resc,"Obras por UF e estagio")
 
 print "Fim do programa"
