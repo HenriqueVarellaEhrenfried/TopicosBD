@@ -4,7 +4,7 @@ import csv
 import datetime as dt
 # import matplotlib.pyplot as pp
 from pyspark.sql.types import StringType, StructField, StructType, BooleanType, ArrayType, IntegerType
-from pyspark.sql import Row
+from pyspark.sql import Row, Column
 from pyspark.sql import SQLContext
 import pyspark.sql.functions as sqlfn
 from pyspark.ml.feature import VectorAssembler
@@ -29,7 +29,16 @@ import sys
 from pyspark import SparkConf,SparkContext
 from pyspark.sql import SQLContext
 
-# SparkContext.setLogLevel("ERROR")
+
+def returnDic(array):
+    i = 0
+    dic = {}
+    for a in array:
+        if (not (dic.has_key(a[0]))):
+            dic[a[0]] = i
+            i += 1
+    return dic
+#----------------------
 SparkContext.setSystemProperty('spark.executor.memory', '2g')
 SparkContext.setSystemProperty('spark.driver.maxResultSize', '5g')
 SparkContext.setSystemProperty('spark.driver.memory', '5g')
@@ -45,10 +54,10 @@ data = [spark.read.format("com.databricks.spark.csv").option("header", "true").l
         spark.read.format("com.databricks.spark.csv").option("header", "true").load("Documentos/data_pac/cidadeshistoricas.csv", inferSchema=True)]
 
 print "Juntando arquivos\n"
-newData = data[0].select("empreendimento","unidade_federativa","orgao_responsavel","tipo","estagio","geometria")
+newData = data[0].select("FID","empreendimento","unidade_federativa","orgao_responsavel","tipo","estagio","geometria")
 x = 1
 for x in range(1,len(data)):
-    newData = newData.union(data[x].select("empreendimento","unidade_federativa","orgao_responsavel","tipo","estagio","geometria"))
+    newData = newData.union(data[x].select("FID","empreendimento","unidade_federativa","orgao_responsavel","tipo","estagio","geometria"))
 
 
 
@@ -62,21 +71,30 @@ dicUF = {}
 dicEstagio = {}
 dicTipo = {}
 dicResp = {}
-def returnDic(array):
-    i = 0
-    dic = {}
-    for a in array:
-        if (not (dic.has_key(a[0]))):
-            dic[a[0]] = i
-            i += 1
-    return dic
+
 dicUF = returnDic(estados)
 dicEstagio = returnDic(estagios)
 dicTipo = returnDic(tipos)
 dicResp = returnDic(orgao_responsavel)
 
-newData2 = newData.withColumn("uf_code", dicUF[newData.col("unidade_federativa")]) 
-newData2.printSchema()
+
+
+imp_data = newData.select("unidade_federativa","estagio","tipo","orgao_responsavel","FID").collect()
+# estados = newData.select("unidade_federativa").collect()
+# estagios = newData.select("estagio").collect()
+# tipos = newData.select("tipo").collect()
+# orgao_responsavel = newData.select("orgao_responsavel").collect()
+header=("uf_code","stages","type","responsable","FID")
+info = []
+for impD in imp_data:
+    info.append((dicUF[impD[0]],dicEstagio[impD[1]],dicTipo[impD[2]],dicResp[impD[3]],impD[4]))
+
+
+df = spark.createDataFrame(info, header)
+
+completeData = (newData.join(df, df["FID"] == newData["FID"], "leftouter").drop(df["FID"]))
+
+
 print "Vou mostrar na tela: \n"
 
 # newData.show(1)
