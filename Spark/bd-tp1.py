@@ -77,13 +77,7 @@ dicEstagio = returnDic(estagios)
 dicTipo = returnDic(tipos)
 dicResp = returnDic(orgao_responsavel)
 
-
-
 imp_data = newData.select("unidade_federativa","estagio","tipo","orgao_responsavel","FID").collect()
-# estados = newData.select("unidade_federativa").collect()
-# estagios = newData.select("estagio").collect()
-# tipos = newData.select("tipo").collect()
-# orgao_responsavel = newData.select("orgao_responsavel").collect()
 header=("uf_code","stages","type","responsable","FID")
 info = []
 for impD in imp_data:
@@ -95,56 +89,86 @@ df = spark.createDataFrame(info, header)
 completeData = (newData.join(df, df["FID"] == newData["FID"], "leftouter").drop(df["FID"]))
 
 
-print "Vou mostrar na tela: \n"
+# print "Vou mostrar na tela: \n"
 
-# newData.show(1)
-# print estados
-print "Mostrei!! \n"
+# # newData.show(1)
+# # print estados
+# print "Mostrei!! \n"
+resultados = []
 
+# Machine Learning
+print "Comecando ML\n"
+beforeML = datetime.now()
 
+features = ['type', 'responsable', 'stages']
+assembler = VectorAssembler(inputCols=features, outputCol="features")
+dataFinal = assembler.transform(completeData)
 
+dt = DecisionTreeClassifier(labelCol='uf_code', featuresCol='features', maxDepth=5)
+(treinamento, teste) = dataFinal.randomSplit([0.8, 0.2])
+model = dt.fit(treinamento)
+predictions = model.transform(teste)
+afterML = datetime.now()
+print model.toDebugString
+total = predictions.count()
+missed = predictions.where("uf_code != prediction").count()
 
-# del a
-# del b
-# del c
-# del estados
-# del estagios
-# del tipos
-# del orgao_responsavel
-# del dfs
+resultados.append(("UF_CODE", "TOTAL: " + str(total), "MISSED: " + str(missed)))
+#------
+print "Comecando ML\n"
+beforeML = datetime.now()
 
+features = ['uf_code', 'responsable', 'stages']
+assembler = VectorAssembler(inputCols=features, outputCol="features")
+dataFinal = assembler.transform(completeData)
 
+dt = DecisionTreeClassifier(labelCol='type', featuresCol='features', maxDepth=5)
+(treinamento, teste) = dataFinal.randomSplit([0.8, 0.2])
+model = dt.fit(treinamento)
+predictions = model.transform(teste)
+afterML = datetime.now()
+print model.toDebugString
+total = predictions.count()
+missed = predictions.where("type != prediction").count()
 
+resultados.append(("TYPE", "TOTAL: " + str(total), "MISSED: " + str(missed)))
+#------
+print "Comecando ML\n"
+beforeML = datetime.now()
 
-#print "Comecando ML\n"
-#beforeML = datetime.now()
-#print str(beforeML) + " Quando comecou o ML\n"
+features = ['uf_code', 'type', 'stages']
+assembler = VectorAssembler(inputCols=features, outputCol="features")
+dataFinal = assembler.transform(completeData)
 
+dt = DecisionTreeClassifier(labelCol='responsable', featuresCol='features', maxDepth=5)
+(treinamento, teste) = dataFinal.randomSplit([0.8, 0.2])
+model = dt.fit(treinamento)
+predictions = model.transform(teste)
+afterML = datetime.now()
+print model.toDebugString
+total = predictions.count()
+missed = predictions.where("responsable != prediction").count()
 
-#features = ['uf_code', 'stages', 'type']
-#assembler = VectorAssembler(inputCols=features, outputCol="features")
-#dataFinal = assembler.transform(df)
+resultados.append(("RESPONSABLE", "TOTAL: " + str(total), "MISSED: " + str(missed)))
+#------
+print "Comecando ML\n"
+beforeML = datetime.now()
 
-#print "Criando vetor de features\n"
-# features = ['uf_code', 'stages', 'type']
-#print "Criando Assmebler\n"
-# assembler = VectorAssembler(inputCols=features, outputCol="features")
-#print "Usando assembler para criar novo DF\n"
-# dataFinal = assembler.transform(df)
-#print "Iniciando o classificador Decision Tree\n"
-#dt = DecisionTreeClassifier(labelCol='type', featuresCol='features', maxDepth=5)
-# print "Vou mostrar na tela \n"
-# df.show(2)
-#df.write.csv("completeFile_original.csv")
-#print "Definindo porcao de treino e de testes\n"
-#(treinamento, teste) = dataFinal.randomSplit([0.8, 0.2])
-#print "Rodando Fit\n"
-#model = dt.fit(treinamento)
-#print "Predizendo\n"
-#predictions = model.transform(teste)
-#print "Tudo pronto\n"
-#afterML = datetime.now()
-#print "Salvando modelo\n"
-#model.save("modelo")
-#print str(afterML) + " Quando terminou o ML, totalizando: " + str(afterML-beforeML)
+features = ['uf_code', 'type', 'responsable']
+assembler = VectorAssembler(inputCols=features, outputCol="features")
+dataFinal = assembler.transform(completeData)
+
+dt = DecisionTreeClassifier(labelCol='stages', featuresCol='features', maxDepth=5)
+(treinamento, teste) = dataFinal.randomSplit([0.8, 0.2])
+model = dt.fit(treinamento)
+predictions = model.transform(teste)
+afterML = datetime.now()
+print model.toDebugString
+total = predictions.count()
+missed = predictions.where("stages != prediction").count()
+
+resultados.append(("STAGES", "TOTAL: " + str(total), "MISSED: " + str(missed)))
+
+print resultados
+
 print "Fim do programa"
