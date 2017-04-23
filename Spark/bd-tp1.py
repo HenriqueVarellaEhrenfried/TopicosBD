@@ -1,3 +1,4 @@
+# encoding=utf8  
 import urllib
 import ssl
 import csv
@@ -31,7 +32,11 @@ from pyspark import SparkConf,SparkContext
 from pyspark.sql import SQLContext
 from decimal import *
 
+reload(sys)  
+sys.setdefaultencoding('utf8')
+
 getcontext().prec = 4
+my_file = open('results.txt', 'w')
 def returnDic(array):
     i = 0
     dic = {}
@@ -48,21 +53,23 @@ def plotDF(data, name, type="df"):
             plotData.append((d["id"], float(Decimal(d["MISSED"])/Decimal(d["TOTAL"]))*100))
         chart = leather.Chart(name)
         chart.add_columns(plotData, fill_color='#265b6a')
-        chart.to_svg(name.replace(" ","_") + ".svg",900)
+        chart.to_svg(name.replace(" ","_") + ".svg",1000)
     else:
         df = data.collect()
-        if (name != "Obras por UF e estagio"):
+        if (name != "Obras por unidades da federação e estágio"):
             for d in df:
                 plotData.append((d[0], d[1]))
             chart = leather.Chart(name)
             chart.add_columns(plotData, fill_color='#265b6a')
-            chart.to_svg(name.replace(" ","_") + ".svg",900)
+            chart.to_svg(name.replace(" ","_") + ".svg",1000)
         else:
             for d in df:
                 plotData.append((d[2], d[0] + " - " + d[1]))
             chart = leather.Chart(name)
             chart.add_bars(plotData, fill_color='#265b6a')
-            chart.to_svg(name.replace(" ","_") + ".svg",900,1600)
+            chart.to_svg(name.replace(" ","_") + ".svg",1000,1600)
+    my_file.write(name + "\n")
+    my_file.write(str(plotData)+"\n\n")
 
 #----------------------
 SparkContext.setSystemProperty('spark.executor.memory', '2g')
@@ -138,7 +145,7 @@ print model.toDebugString
 total = predictions.count()
 missed = predictions.where("uf_code != prediction").count()
 
-resultados.append({"id": "UF_CODE", "TOTAL": total, "MISSED": missed})
+resultados.append({"id": "Unidade Federativa", "TOTAL": total, "MISSED": missed})
 #------
 
 features = ['uf_code', 'responsable', 'stages']
@@ -153,7 +160,7 @@ print model.toDebugString
 total = predictions.count()
 missed = predictions.where("type != prediction").count()
 
-resultados.append({"id": "TYPE", "TOTAL": total, "MISSED": missed})
+resultados.append({"id": "Tipo", "TOTAL": total, "MISSED": missed})
 #------
 
 features = ['uf_code', 'type', 'stages']
@@ -168,7 +175,7 @@ print model.toDebugString
 total = predictions.count()
 missed = predictions.where("responsable != prediction").count()
 
-resultados.append({"id": "RESPONSABLE", "TOTAL": total, "MISSED": missed})
+resultados.append({"id": "Orgão Responsável", "TOTAL": total, "MISSED": missed})
 #------
 
 features = ['uf_code', 'type', 'responsable']
@@ -183,20 +190,25 @@ print model.toDebugString
 total = predictions.count()
 missed = predictions.where("stages != prediction").count()
 
-resultados.append({"id": "STAGE", "TOTAL": total, "MISSED": missed})
+resultados.append({"id": "Estágio", "TOTAL": total, "MISSED": missed})
 afterML = datetime.now()
 print "Tempo depois do ML: " + str(afterML) + "TOTAL: " + str(afterML-beforeML) + "\n"
 # Fim Machnie Learning
 print resultados
 
-resa = completeData.select("estagio").groupBy("estagio").count()
-resb = completeData.select("unidade_federativa").groupBy("unidade_federativa").count()
-resc = completeData.select("unidade_federativa","estagio").groupBy("unidade_federativa","estagio").count().orderBy("unidade_federativa")
+resa = completeData.select("estagio").groupBy("estagio").count().orderBy("count")
+resb = completeData.select("unidade_federativa").groupBy("unidade_federativa").count().orderBy("count")
+resc = completeData.select("unidade_federativa","estagio").groupBy("unidade_federativa","estagio").count().orderBy("unidade_federativa","count")
+
+resultados[0], resultados[-1] = resultados[-1], resultados[0]
+resultados[0], resultados[1] = resultados[1], resultados[0]
+resultados[1], resultados[2] = resultados[2], resultados[1]
+
+plotDF(resultados,"Porcentagem de erro da predição","array")
+plotDF(resa,"Obras por estágio")
+plotDF(resb,"Obras por unidades da federação")
+plotDF(resc,"Obras por unidades da federação e estágio")
 
 
-plotDF(resultados,"Porcentagem de Erro","array")
-plotDF(resa,"Obras por estagio")
-plotDF(resb,"Obras por UF")
-plotDF(resc,"Obras por UF e estagio")
-
+my_file.close()
 print "Fim do programa"
