@@ -108,15 +108,12 @@ dt = DecisionTreeClassifier(labelCol='uf_code', featuresCol='features', maxDepth
 (treinamento, teste) = dataFinal.randomSplit([0.8, 0.2])
 model = dt.fit(treinamento)
 predictions = model.transform(teste)
-afterML = datetime.now()
 print model.toDebugString
 total = predictions.count()
 missed = predictions.where("uf_code != prediction").count()
 
-resultados.append(("UF_CODE", "TOTAL: " + str(total), "MISSED: " + str(missed)))
+resultados.append({"id": "UF_CODE", "TOTAL": total, "MISSED": missed})
 #------
-print "Comecando ML\n"
-beforeML = datetime.now()
 
 features = ['uf_code', 'responsable', 'stages']
 assembler = VectorAssembler(inputCols=features, outputCol="features")
@@ -126,15 +123,12 @@ dt = DecisionTreeClassifier(labelCol='type', featuresCol='features', maxDepth=5)
 (treinamento, teste) = dataFinal.randomSplit([0.8, 0.2])
 model = dt.fit(treinamento)
 predictions = model.transform(teste)
-afterML = datetime.now()
 print model.toDebugString
 total = predictions.count()
 missed = predictions.where("type != prediction").count()
 
-resultados.append(("TYPE", "TOTAL: " + str(total), "MISSED: " + str(missed)))
+resultados.append({"id": "TYPE", "TOTAL": total, "MISSED": missed})
 #------
-print "Comecando ML\n"
-beforeML = datetime.now()
 
 features = ['uf_code', 'type', 'stages']
 assembler = VectorAssembler(inputCols=features, outputCol="features")
@@ -144,15 +138,12 @@ dt = DecisionTreeClassifier(labelCol='responsable', featuresCol='features', maxD
 (treinamento, teste) = dataFinal.randomSplit([0.8, 0.2])
 model = dt.fit(treinamento)
 predictions = model.transform(teste)
-afterML = datetime.now()
 print model.toDebugString
 total = predictions.count()
 missed = predictions.where("responsable != prediction").count()
 
-resultados.append(("RESPONSABLE", "TOTAL: " + str(total), "MISSED: " + str(missed)))
+resultados.append({"id": "RESPONSABLE", "TOTAL": total, "MISSED": missed})
 #------
-print "Comecando ML\n"
-beforeML = datetime.now()
 
 features = ['uf_code', 'type', 'responsable']
 assembler = VectorAssembler(inputCols=features, outputCol="features")
@@ -162,13 +153,19 @@ dt = DecisionTreeClassifier(labelCol='stages', featuresCol='features', maxDepth=
 (treinamento, teste) = dataFinal.randomSplit([0.8, 0.2])
 model = dt.fit(treinamento)
 predictions = model.transform(teste)
-afterML = datetime.now()
 print model.toDebugString
 total = predictions.count()
 missed = predictions.where("stages != prediction").count()
 
-resultados.append(("STAGES", "TOTAL: " + str(total), "MISSED: " + str(missed)))
-
+resultados.append({"id": "RESPONSABLE", "TOTAL": total, "MISSED": missed})
+afterML = datetime.now()
+print "Tempo depois do ML: " + str(afterML) + "TOTAL: " + str(afterML-beforeML) + "\n"
+# Fim Machnie Learning
 print resultados
+
+completeData.select("estagio").groupBy("estagio").count().show()
+completeData.select("unidade_federativa").groupBy("unidade_federativa").count().show()
+completeData.select("unidade_federativa","estagio").groupBy("unidade_federativa","estagio").count().orderBy("unidade_federativa").show()
+
 
 print "Fim do programa"
