@@ -1,3 +1,5 @@
+require 'fileutils'
+
 numVezes = ARGV[0]
 
 directory_name = "Resultados"
@@ -10,12 +12,12 @@ files = [
             "results.txt"
         ]
 
-(0..numVezes).to_a.each do |run|
+(0..numVezes.to_i).to_a.each do |run|
     directory_name = "Rodada #{run}"
     Dir.mkdir(directory_name) unless File.exists?(directory_name)
     system("python bd-tp1.py")
     files.each do |f|
-        system("mv #{f} #{directory_name}")
+        FileUtils.mv(f, directory_name)
     end
-    system("mv #{directory_name} Resultados")
+   FileUtils.mv(directory_name, "Resultados")
 end

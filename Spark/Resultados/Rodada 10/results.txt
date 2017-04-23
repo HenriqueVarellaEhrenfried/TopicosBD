@@ -1,5 +1,5 @@
 Porcentagem de erro da predição
-[('Tipo', 0.0), ('Org\xc3\xa3o Respons\xc3\xa1vel', 1.942), ('Est\xc3\xa1gio', 43.480000000000004), ('Unidade Federativa', 79.28)]
+[('Tipo', 0.0), ('Org\xc3\xa3o Respons\xc3\xa1vel', 2.564), ('Est\xc3\xa1gio', 45.87), ('Unidade Federativa', 83.33)]
 
 Obras por estágio
 [(u'Em licita\xe7\xe3o de obra', 8), (u'Em licita\xe7\xe3o de projeto', 17), (u'Conclu\xeddo', 33), (u'A\xe7\xe3o preparat\xf3ria', 98), (u'Em obras', 129), (u'Em execu\xe7\xe3o', 250)]
