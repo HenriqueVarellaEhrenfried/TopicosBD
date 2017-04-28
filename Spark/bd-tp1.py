@@ -47,6 +47,14 @@ def returnDic(array):
     return dic
 
 def plotDF(data, name, type="df"):
+    leather.theme.axis_title_color = "#000000"
+    leather.theme.title_font_size = 25
+    leather.theme.title_color = '#000000'
+    leather.theme.background_color = '#ffffff'
+    leather.theme.legend_color = '#000000'
+    leather.theme.tick_color = '#000000'
+    leather.theme.axis_title_color = '#000000'
+    leather.theme.label_color = '#000000'
     plotData = []
     if (type != "df"):
         for d in data:
